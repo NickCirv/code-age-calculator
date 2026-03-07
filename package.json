@@ -1,0 +1,18 @@
+{
+  "name": "code-age-calculator",
+  "version": "1.0.0",
+  "description": "Birth certificates for every file in your git repo — see which files are the oldest, most modified, and most interesting.",
+  "main": "index.js",
+  "bin": {
+    "code-age": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js --help"
+  },
+  "keywords": ["git", "cli", "code-age", "developer-tools", "fun"],
+  "author": "Nick Ashkar <nick@cirvgreen.com> (https://github.com/NickCirv)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
